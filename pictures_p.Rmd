@@ -1,0 +1,20 @@
+---
+title: "pictures_p"
+author: "SangOKim"
+date: "2/11/2022"
+output: html_document
+---
+## Gentoo
+```{r, fig.align="center", eval=TRUE, echo=FALSE}
+knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\gentoo.jfif")
+```
+
+## Adelie
+```{r, fig.align="center", eval=TRUE, echo=FALSE}
+knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\adelie.jfif")
+```
+
+## Chinstrap
+```{r, fig.align="center", eval=TRUE, echo=FALSE}
+knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\chinstrap.jpg")
+```
