@@ -9,5 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ## Data
-The penguin data was collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
+The original penguin data was collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
+
+This website was created by Sang-O Kim as a fulfillment to NTRES6100 lab practice 11th of February. 
+
+```{r, fig.align="center", eval=TRUE, echo=FALSE}
+knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\three.jpg"")
+```
 
