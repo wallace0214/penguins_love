@@ -1,0 +1,37 @@
+---
+title: "penguin_rmarkdown_charts"
+author: "SangOKim"
+date: "2/11/2022"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Single Trait Distribution 
+```{r}
+ggplot(data = penguins)+
+  geom_histogram(mapping = aes(body_mass_g, fill=island))+
+  facet_wrap(~species, nrow=3)
+```
+
+
+## Relationship between multiple traits
+```{r}
+ggplot(data = penguins, mapping = aes(x = species, y= body_mass_g, fill=species))+
+  geom_boxplot()
+```
+
+
+## Sexual dimorphism 
+```{r}
+ggplot(data=penguins, aes(x=body_mass_g, fill=sex, color=sex)) +
+  geom_histogram(alpha = 0.5)
+```
+
+
+
+

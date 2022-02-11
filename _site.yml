@@ -1,0 +1,11 @@
+name: "Sang-O Kim"
+navbar:
+  title: "Sang-O Kim Penguin"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Pictures"
+      href: pictures_p.html
+    - text: "Charts"
+      href: charts_p.html
+output_dir: "."
