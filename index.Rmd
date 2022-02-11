@@ -14,6 +14,6 @@ The original penguin data was collected and made available by Dr. Kristen Gorman
 This website was created by Sang-O Kim as a fulfillment to NTRES6100 lab practice 11th of February. 
 
 ```{r, fig.align="center", eval=TRUE, echo=FALSE}
-knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\three.jpg"")
+knitr::include_graphics("C:\\Users\\User\\github_kso\\penguins_love\\pictures\\lter_penguins.png")
 ```
 
